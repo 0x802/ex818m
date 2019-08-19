@@ -42,7 +42,7 @@ EX-818-M (Exploit 818 Mikrotik) is A tool that pulls all cards or passwords in t
 The project is compatible with Python 3.
 
 ## Frequently Asked Questions
-**Q:** How to use BFAC with all levels?
+**Q:** How to use EX818M with all levels?
 
 **A:** 
 By guessing the password numbers and selecting the correct password
@@ -61,6 +61,6 @@ This project is designed for educational and ethical testing purposes only. In o
 I thank my friends for supporting me ^^
 
 ## Author
-*Mazin Ahmed*
+*Hathem Ahmed*
 * Website : [https://crazyhackers.ga](https://crazyhackers.ga)
 * FaceBook: [https://FB.com/mhm.hack](https://FB.com/mhm.hack)
