@@ -13,7 +13,7 @@ EX-818-M (Exploit 818 Mikrotik) is A tool that pulls all cards or passwords in t
 * Uses multiple algorithms for automatically detecting valid and invalid pages.
 * User agent randomization.
 * Works both as a command-line tool and Python module.
-* Support for Windows, MacOS, and Linux operating systems, and Phone.
+* Support for MacOS, and Linux operating systems, and Phone.
 * Reporting: simple, Text.
 
 ## Image
