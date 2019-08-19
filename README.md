@@ -60,6 +60,9 @@ This project is designed for educational and ethical testing purposes only. In o
 ## Thanks
 I thank my friends for supporting me ^^
 
+## version
+v1.0
+
 ## Author
 *Hathem Ahmed*
 * Website : [https://crazyhackers.ga](https://crazyhackers.ga)
