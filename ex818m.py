@@ -142,7 +142,7 @@ def index_exploit(ip, port, number, file):
 
             save(True, file=file, ip=ip, port=port, Password=Password)
 
-        if Next_save != smpleA[0] and smpleA[0] < 4000:
+        if Next_save != smpleA[0] and smpleA[0] > 4000:
             errors_num += 1
 
             AllFor = 0
