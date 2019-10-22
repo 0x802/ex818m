@@ -13,7 +13,12 @@
 # *******************************************************************
 
 # Modules
-import requests
+try:
+    import requests
+except ImportError:
+    print("[ ! ] Error import 'requests' model")
+    exit()
+
 import time
 import os
 import argparse
@@ -196,13 +201,13 @@ def add(T1, T2, passwords, errors):
 
 def main():
     write(f"""
-{Y}++++++++++++++++++++++++++++++++++++++++++++++++++++++{N}
+{Y}====================================================={N}
              {B}-::: Exploit 818 Mikrotik :::-
                         (EX-818-M)
                        Version: 1.0
                 FOR {R}YEMEN{N}{B} NETWORKS
            Author : Mr.MHM | Facebook.com/mhm.hack  {N}
-{Y}++++++++++++++++++++++++++++++++++++++++++++++++++++++{N}\n""")
+{Y}====================================================={N}\n""")
     parser = argparse.ArgumentParser()
     parser.add_argument('-i', '--ip', required=True
                         , help='<ip> IP Target ')
