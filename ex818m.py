@@ -13,25 +13,33 @@
 # *******************************************************************
 
 # Modules
+import time
+import os
+import sys
 try:
     import requests
 except ImportError:
     print("[ ! ] Error import 'requests' model")
     exit()
+  
+try:
+    import argparse
+except ImportError:
+    print("[ ! ] Error import 'argparse' model")
+    exit()
 
-import time
-import os
-import argparse
-import sys
-
+    
 # colors
+if 'win' not in sys.platform:
+    R = '\033[31m'      # Red
+    B = '\033[94m'      # Blue
+    Y = '\033[33m'      # Yellow
+    N = '\033[0m'       # None Color
+    W = '\033[7m'       # Wow Color
+    F = '\033[5m'       # Color Find
+else:
+    R = B = Y = N = W = F = str()
 
-R = '\033[31m'      # Red
-B = '\033[94m'      # Blue
-Y = '\033[33m'      # Yellow
-N = '\033[0m'       # None Color
-W = '\033[7m'       # Wow Color
-F = '\033[5m'       # Color Find
 
 
 # write this def martaks
@@ -205,8 +213,7 @@ def main():
              {B}-::: Exploit 818 Mikrotik :::-
                         (EX-818-M)
                        Version: 1.0
-                FOR {R}YEMEN{N}{B} NETWORKS
-           Author : Mr.MHM | Facebook.com/mhm.hack  {N}
+              Author : Facebook.com/mhm.hack  {N}
 {Y}====================================================={N}\n""")
     parser = argparse.ArgumentParser()
     parser.add_argument('-i', '--ip', required=True
